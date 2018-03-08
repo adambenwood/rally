@@ -1,24 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LVG-Yo-ZJN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Havelock_Titling_Regular.otf">
+            <string>HavelockTitling-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController storyboardIdentifier="Main" id="BYZ-38-t0r" customClass="MainViewController" customModule="Rally" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="MainView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bq7-8G-3Tv" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i9V-H2-wSW" firstAttribute="bottom" secondItem="Bq7-8G-3Tv" secondAttribute="bottom" id="Ita-oC-2tN"/>
+                            <constraint firstItem="Bq7-8G-3Tv" firstAttribute="leading" secondItem="i9V-H2-wSW" secondAttribute="leading" id="ZDX-TA-0b2"/>
+                            <constraint firstItem="Bq7-8G-3Tv" firstAttribute="top" secondItem="i9V-H2-wSW" secondAttribute="top" id="ZUG-Ra-YhB"/>
+                            <constraint firstItem="i9V-H2-wSW" firstAttribute="trailing" secondItem="Bq7-8G-3Tv" secondAttribute="trailing" id="kW9-19-Iv6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="i9V-H2-wSW"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" image="compass.png" id="dIz-QW-o4X">
+                            <color key="tintColor" red="0.97902590040000004" green="0.54735523460000002" blue="0.12668007610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="hw8-Pn-Tdy">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu-options.png" id="oNU-Uf-IHZ">
+                            <color key="tintColor" red="0.99931639429999997" green="0.57788377999999996" blue="0.0042748204429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="compass.png" id="I4E-zO-g5f">
+                            <inset key="imageInsets" minX="-9" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <color key="tintColor" red="0.97902590040000004" green="0.54735523460000002" blue="0.12668007610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="MainUI" destination="8bC-Xf-vdC" id="YPk-MI-ztI"/>
+                        <outlet property="MainView" destination="8bC-Xf-vdC" id="8Bu-1Q-Pu2"/>
+                        <outlet property="mapView" destination="Bq7-8G-3Tv" id="ALT-yD-BHy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1143.2" y="115.59220389805098"/>
+        </scene>
+        <!--Rally Point Controller-->
+        <scene sceneID="zLS-ZD-w6h">
+            <objects>
+                <viewController storyboardIdentifier="RallyPoint" id="wiu-Em-Kgy" customClass="RallyPointController" customModule="Rally" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iki-lK-uGm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="L1S-tk-N4K"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uGW-FB-a0r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-266" y="117"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="beE-PY-xOl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LVG-Yo-ZJN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k3L-Xr-Awn">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HavelockTitling-Regular" family="Havelock Titling" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="HavelockTitling-Regular" family="Havelock Titling" pointSize="17"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="12e-WZ-cVm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hmD-nw-YJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2346" y="116"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="qlV-Na-j2I">
+            <objects>
+                <viewController storyboardIdentifier="MenuViewController" id="aRh-jN-Rsv" customClass="MenuViewController" customModule="AKSwiftSlideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" alpha="0.80000000000000004" contentMode="scaleToFill" id="HT1-Gy-uYi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1EW-M3-4DG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onCloseMenuClick:" destination="aRh-jN-Rsv" eventType="touchUpInside" id="e1U-du-K84"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="54" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ZHW-EQ-gzc">
+                                <rect key="frame" x="0.0" y="63" width="315" height="604"/>
+                                <color key="backgroundColor" red="0.97902590040000004" green="0.54735523460000002" blue="0.12668007610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" red="0.99931639429999997" green="0.57788377999999996" blue="0.0042748204429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellMenu" id="sb5-jP-GEm">
+                                        <rect key="frame" x="0.0" y="22" width="315" height="54"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sb5-jP-GEm" id="IMM-PR-Hqx">
+                                            <rect key="frame" x="0.0" y="0.0" width="315" height="54"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JS0-Lo-HQT">
+                                                    <rect key="frame" x="8" y="8" width="38" height="38"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="38" id="Th4-lQ-033"/>
+                                                        <constraint firstAttribute="width" constant="38" id="lpp-Og-JW2"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YK5-fH-ekD">
+                                                    <rect key="frame" x="54" y="16" width="253" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="dZe-CS-Nfr"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="HavelockTitling-Regular" family="Havelock Titling" pointSize="17"/>
+                                                    <color key="textColor" red="0.99963909387588501" green="1" blue="0.99975615739822388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="YK5-fH-ekD" firstAttribute="centerY" secondItem="IMM-PR-Hqx" secondAttribute="centerY" id="7ok-83-eGu"/>
+                                                <constraint firstItem="JS0-Lo-HQT" firstAttribute="leading" secondItem="IMM-PR-Hqx" secondAttribute="leading" constant="8" id="B0Q-ed-7jQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="YK5-fH-ekD" secondAttribute="trailing" constant="8" id="WF2-ak-6QO"/>
+                                                <constraint firstItem="YK5-fH-ekD" firstAttribute="leading" secondItem="JS0-Lo-HQT" secondAttribute="trailing" constant="8" id="npC-VF-1QX"/>
+                                                <constraint firstItem="JS0-Lo-HQT" firstAttribute="centerY" secondItem="IMM-PR-Hqx" secondAttribute="centerY" id="zB4-jl-MRP"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="aRh-jN-Rsv" id="Bv6-oD-vaT"/>
+                                    <outlet property="delegate" destination="aRh-jN-Rsv" id="bDg-92-reb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dJK-Fx-RLB" firstAttribute="bottom" secondItem="1EW-M3-4DG" secondAttribute="bottom" id="9g7-Rn-1Pi"/>
+                            <constraint firstItem="1EW-M3-4DG" firstAttribute="leading" secondItem="dJK-Fx-RLB" secondAttribute="leading" id="B2R-Ya-GhQ"/>
+                            <constraint firstItem="1EW-M3-4DG" firstAttribute="top" secondItem="HT1-Gy-uYi" secondAttribute="top" id="GAh-Wp-oPs"/>
+                            <constraint firstItem="dJK-Fx-RLB" firstAttribute="trailing" secondItem="1EW-M3-4DG" secondAttribute="trailing" id="SqB-rg-Je8"/>
+                            <constraint firstItem="dJK-Fx-RLB" firstAttribute="trailing" secondItem="ZHW-EQ-gzc" secondAttribute="trailing" constant="60" id="cQE-Ep-brc"/>
+                            <constraint firstItem="ZHW-EQ-gzc" firstAttribute="leading" secondItem="dJK-Fx-RLB" secondAttribute="leading" id="oIw-jc-zCF"/>
+                            <constraint firstAttribute="bottom" secondItem="ZHW-EQ-gzc" secondAttribute="bottom" id="tnq-cG-p5J"/>
+                            <constraint firstItem="ZHW-EQ-gzc" firstAttribute="top" secondItem="HT1-Gy-uYi" secondAttribute="top" constant="64" id="wIw-hN-kEd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dJK-Fx-RLB"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCloseMenuOverlay" destination="1EW-M3-4DG" id="RX9-6a-PAp"/>
+                        <outlet property="tblMenuOptions" destination="ZHW-EQ-gzc" id="AHW-IZ-qDm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DOe-3R-rHB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2346.4000000000001" y="-609.44527736131943"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="compass.png" width="43" height="43"/>
+        <image name="menu-options.png" width="32" height="32"/>
+    </resources>
 </document>

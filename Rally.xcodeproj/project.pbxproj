@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00AFA6D213C12E596F955329 /* libPods-Rally.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F9B0996DB22DD3488B254E /* libPods-Rally.a */; };
+		50137BB5201D10A700D0A1F3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 50137BB4201D10A700D0A1F3 /* Podfile */; };
+		5013E4CA201D162C002B13B4 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 5013E4C9201D162C002B13B4 /* style.json */; };
 		50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FB201C3CBC00F80123 /* AppDelegate.swift */; };
-		50A163FE201C3CBC00F80123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FD201C3CBC00F80123 /* ViewController.swift */; };
+		50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FD201C3CBC00F80123 /* MainViewController.swift */; };
 		50A16401201C3CBC00F80123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A163FF201C3CBC00F80123 /* Main.storyboard */; };
 		50A16403201C3CBC00F80123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A16402201C3CBC00F80123 /* Assets.xcassets */; };
 		50A16406201C3CBC00F80123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A16404201C3CBC00F80123 /* LaunchScreen.storyboard */; };
 		50A16411201C3CBD00F80123 /* RallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A16410201C3CBD00F80123 /* RallyTests.swift */; };
 		50A1641C201C3CBD00F80123 /* RallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A1641B201C3CBD00F80123 /* RallyUITests.swift */; };
+		50A56F6720256B4A00AED095 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A56F6620256B4A00AED095 /* ProtocolBuffers.framework */; };
+		50A56F6820256B4A00AED095 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50A56F6620256B4A00AED095 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50A56F6B20256B6700AED095 /* Underdark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A56F6A20256B6700AED095 /* Underdark.framework */; };
+		50A56F6C20256B6700AED095 /* Underdark.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50A56F6A20256B6700AED095 /* Underdark.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		50A56F6E20256D3C00AED095 /* rally_logo_only.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F6D20256D3C00AED095 /* rally_logo_only.png */; };
+		50A56F74202575DF00AED095 /* rallyupicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F73202575DE00AED095 /* rallyupicon.png */; };
+		50CF03B5204A511100FF402C /* menu-options.png in Resources */ = {isa = PBXBuildFile; fileRef = 50CF03B4204A511100FF402C /* menu-options.png */; };
+		50CF03B6204A564100FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
+		50CF03B7204A564200FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
+		50CF03B8204A564400FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
+		50F6A785204F98B000317BDB /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A784204F98B000317BDB /* compass.png */; };
+		50F6A78C2051089B00317BDB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6A78A2051089A00317BDB /* MenuViewController.swift */; };
+		50F6A78D2051089B00317BDB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6A78B2051089A00317BDB /* BaseViewController.swift */; };
+		50F6A7952051BB9B00317BDB /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7942051BB9B00317BDB /* placeholder.png */; };
+		50F6A7972051BF1300317BDB /* rallypoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7962051BF1300317BDB /* rallypoint.png */; };
+		50F6A7992051C32C00317BDB /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7982051C32C00317BDB /* map.png */; };
+		50F6A79B2051C7E300317BDB /* RallyPointController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6A79A2051C7E300317BDB /* RallyPointController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +53,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		50A56F6920256B4A00AED095 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				50A56F6820256B4A00AED095 /* ProtocolBuffers.framework in Embed Frameworks */,
+				50A56F6C20256B6700AED095 /* Underdark.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		27A9F4EE82BDC4A5F61F4FE7 /* Pods-Rally.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rally.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rally/Pods-Rally.debug.xcconfig"; sourceTree = "<group>"; };
+		49F9B0996DB22DD3488B254E /* libPods-Rally.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rally.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50137BB4201D10A700D0A1F3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5013E4C9201D162C002B13B4 /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		50A163F8201C3CBC00F80123 /* Rally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A163FB201C3CBC00F80123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50A163FD201C3CBC00F80123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50A163FD201C3CBC00F80123 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		50A16400201C3CBC00F80123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50A16402201C3CBC00F80123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50A16405201C3CBC00F80123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +86,21 @@
 		50A16417201C3CBD00F80123 /* RallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RallyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A1641B201C3CBD00F80123 /* RallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyUITests.swift; sourceTree = "<group>"; };
 		50A1641D201C3CBD00F80123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A56F652025695B00AED095 /* Underdark */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Underdark; path = /Users/abenwood/Desktop/Rally/Underdark; sourceTree = "<absolute>"; };
+		50A56F6620256B4A00AED095 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Underdark/ProtocolBuffers.framework; sourceTree = "<group>"; };
+		50A56F6A20256B6700AED095 /* Underdark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Underdark.framework; path = Underdark/Underdark.framework; sourceTree = "<group>"; };
+		50A56F6D20256D3C00AED095 /* rally_logo_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rally_logo_only.png; path = "../../Files For Rally/rally_logo_only.png"; sourceTree = "<group>"; };
+		50A56F73202575DE00AED095 /* rallyupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rallyupicon.png; path = "../../Files For Rally/rallyupicon.png"; sourceTree = "<group>"; };
+		50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Havelock_Titling_Regular.otf; sourceTree = "<group>"; };
+		50CF03B4204A511100FF402C /* menu-options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-options.png"; path = "../../menu-options.png"; sourceTree = "<group>"; };
+		50F6A784204F98B000317BDB /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		50F6A78A2051089A00317BDB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		50F6A78B2051089A00317BDB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		50F6A7942051BB9B00317BDB /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		50F6A7962051BF1300317BDB /* rallypoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rallypoint.png; sourceTree = "<group>"; };
+		50F6A7982051C32C00317BDB /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		50F6A79A2051C7E300317BDB /* RallyPointController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyPointController.swift; sourceTree = "<group>"; };
+		B9013EBEF8E9842E485A539B /* Pods-Rally.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rally.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rally/Pods-Rally.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A56F6B20256B6700AED095 /* Underdark.framework in Frameworks */,
+				50A56F6720256B4A00AED095 /* ProtocolBuffers.framework in Frameworks */,
+				00AFA6D213C12E596F955329 /* libPods-Rally.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +134,16 @@
 		50A163EF201C3CBC00F80123 = {
 			isa = PBXGroup;
 			children = (
+				50A56F6A20256B6700AED095 /* Underdark.framework */,
+				50A56F6620256B4A00AED095 /* ProtocolBuffers.framework */,
+				50A56F652025695B00AED095 /* Underdark */,
+				50137BB4201D10A700D0A1F3 /* Podfile */,
 				50A163FA201C3CBC00F80123 /* Rally */,
 				50A1640F201C3CBD00F80123 /* RallyTests */,
 				50A1641A201C3CBD00F80123 /* RallyUITests */,
 				50A163F9201C3CBC00F80123 /* Products */,
+				A46BE5DCA192BCE4F957A627 /* Pods */,
+				B2B00CBA5BB91993D329CD38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +160,20 @@
 		50A163FA201C3CBC00F80123 /* Rally */ = {
 			isa = PBXGroup;
 			children = (
+				50A56F7D2025797A00AED095 /* fonts */,
+				50A56F6D20256D3C00AED095 /* rally_logo_only.png */,
+				50F6A784204F98B000317BDB /* compass.png */,
+				50CF03B4204A511100FF402C /* menu-options.png */,
+				50F6A7962051BF1300317BDB /* rallypoint.png */,
+				50F6A7982051C32C00317BDB /* map.png */,
+				50F6A7942051BB9B00317BDB /* placeholder.png */,
+				50A56F73202575DE00AED095 /* rallyupicon.png */,
 				50A163FB201C3CBC00F80123 /* AppDelegate.swift */,
-				50A163FD201C3CBC00F80123 /* ViewController.swift */,
+				50A163FD201C3CBC00F80123 /* MainViewController.swift */,
+				50F6A79A2051C7E300317BDB /* RallyPointController.swift */,
+				50F6A78B2051089A00317BDB /* BaseViewController.swift */,
+				50F6A78A2051089A00317BDB /* MenuViewController.swift */,
+				5013E4C9201D162C002B13B4 /* style.json */,
 				50A163FF201C3CBC00F80123 /* Main.storyboard */,
 				50A16402201C3CBC00F80123 /* Assets.xcassets */,
 				50A16404201C3CBC00F80123 /* LaunchScreen.storyboard */,
@@ -125,6 +200,31 @@
 			path = RallyUITests;
 			sourceTree = "<group>";
 		};
+		50A56F7D2025797A00AED095 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		A46BE5DCA192BCE4F957A627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27A9F4EE82BDC4A5F61F4FE7 /* Pods-Rally.debug.xcconfig */,
+				B9013EBEF8E9842E485A539B /* Pods-Rally.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2B00CBA5BB91993D329CD38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F9B0996DB22DD3488B254E /* libPods-Rally.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +232,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50A16420201C3CBD00F80123 /* Build configuration list for PBXNativeTarget "Rally" */;
 			buildPhases = (
+				BD5CC7EF4053CF2E15B6D39E /* [CP] Check Pods Manifest.lock */,
 				50A163F4201C3CBC00F80123 /* Sources */,
 				50A163F5201C3CBC00F80123 /* Frameworks */,
 				50A163F6201C3CBC00F80123 /* Resources */,
+				6A61C87EF35458664EB13693 /* [CP] Embed Pods Frameworks */,
+				459325A68DC19C785A608063 /* [CP] Copy Pods Resources */,
+				50A56F6920256B4A00AED095 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +336,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F6A785204F98B000317BDB /* compass.png in Resources */,
+				50CF03B5204A511100FF402C /* menu-options.png in Resources */,
+				50F6A7992051C32C00317BDB /* map.png in Resources */,
+				50CF03B6204A564100FF402C /* Havelock_Titling_Regular.otf in Resources */,
 				50A16406201C3CBC00F80123 /* LaunchScreen.storyboard in Resources */,
+				50137BB5201D10A700D0A1F3 /* Podfile in Resources */,
+				5013E4CA201D162C002B13B4 /* style.json in Resources */,
 				50A16403201C3CBC00F80123 /* Assets.xcassets in Resources */,
+				50A56F74202575DF00AED095 /* rallyupicon.png in Resources */,
 				50A16401201C3CBC00F80123 /* Main.storyboard in Resources */,
+				50F6A7952051BB9B00317BDB /* placeholder.png in Resources */,
+				50A56F6E20256D3C00AED095 /* rally_logo_only.png in Resources */,
+				50F6A7972051BF1300317BDB /* rallypoint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +356,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CF03B7204A564200FF402C /* Havelock_Titling_Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +364,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CF03B8204A564400FF402C /* Havelock_Titling_Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		459325A68DC19C785A608063 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rally/Pods-Rally-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rally/Pods-Rally-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A61C87EF35458664EB13693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rally/Pods-Rally-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5CC7EF4053CF2E15B6D39E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rally-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50A163F4201C3CBC00F80123 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A163FE201C3CBC00F80123 /* ViewController.swift in Sources */,
+				50F6A78D2051089B00317BDB /* BaseViewController.swift in Sources */,
+				50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */,
+				50F6A79B2051C7E300317BDB /* RallyPointController.swift in Sources */,
 				50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */,
+				50F6A78C2051089B00317BDB /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +597,14 @@
 		};
 		50A16421201C3CBD00F80123 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A9F4EE82BDC4A5F61F4FE7 /* Pods-Rally.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Underdark",
+				);
 				INFOPLIST_FILE = Rally/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.Rally;
@@ -438,9 +616,14 @@
 		};
 		50A16422201C3CBD00F80123 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9013EBEF8E9842E485A539B /* Pods-Rally.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Underdark",
+				);
 				INFOPLIST_FILE = Rally/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.Rally;
