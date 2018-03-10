@@ -27,13 +27,19 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
         case 0:
             print("Map\n", terminator: "")
 
-            //self.openViewControllerBasedOnIdentifier("Main")
+            self.openViewControllerBasedOnIdentifier("Main")
             
             break
         case 1:
             print("RallyPoints\n", terminator: "")
             
             self.openViewControllerBasedOnIdentifier("RallyPoint")
+            
+            break
+        case 2:
+            print("Events\n", terminator: "")
+            
+            self.openViewControllerBasedOnIdentifier("Event")
             
             break
         default:
@@ -55,12 +61,10 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
     
     func addSlideMenuButton(){
         let btnShowMenu = UIButton(type: UIButtonType.system)
-        let btnImage = UIImage(named: "menu-options.png")
-        btnShowMenu.setImage(btnImage , for: UIControlState())
+        btnShowMenu.setImage(self.defaultMenuImage(), for: UIControlState())
         btnShowMenu.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
         btnShowMenu.addTarget(self, action: #selector(BaseViewController.onSlideMenuButtonPressed(_:)), for: UIControlEvents.touchUpInside)
         let customBarItem = UIBarButtonItem(customView: btnShowMenu)
-        customBarItem.tintColor = UIColor.orange
         self.navigationItem.leftBarButtonItem = customBarItem;
     }
 

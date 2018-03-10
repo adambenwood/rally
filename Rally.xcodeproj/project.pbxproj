@@ -21,12 +21,13 @@
 		50A56F6820256B4A00AED095 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50A56F6620256B4A00AED095 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50A56F6B20256B6700AED095 /* Underdark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A56F6A20256B6700AED095 /* Underdark.framework */; };
 		50A56F6C20256B6700AED095 /* Underdark.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50A56F6A20256B6700AED095 /* Underdark.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		50A56F6E20256D3C00AED095 /* rally_logo_only.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F6D20256D3C00AED095 /* rally_logo_only.png */; };
 		50A56F74202575DF00AED095 /* rallyupicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F73202575DE00AED095 /* rallyupicon.png */; };
-		50CF03B5204A511100FF402C /* menu-options.png in Resources */ = {isa = PBXBuildFile; fileRef = 50CF03B4204A511100FF402C /* menu-options.png */; };
+		50A599042053906900EF8EC8 /* RallyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A599032053906900EF8EC8 /* RallyIcon.png */; };
+		50A599062053933000EF8EC8 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A599052053933000EF8EC8 /* user.png */; };
 		50CF03B6204A564100FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
 		50CF03B7204A564200FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
 		50CF03B8204A564400FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
+		50E835C52052649B00C9067E /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E835C42052649B00C9067E /* EventViewController.swift */; };
 		50F6A785204F98B000317BDB /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A784204F98B000317BDB /* compass.png */; };
 		50F6A78C2051089B00317BDB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6A78A2051089A00317BDB /* MenuViewController.swift */; };
 		50F6A78D2051089B00317BDB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6A78B2051089A00317BDB /* BaseViewController.swift */; };
@@ -34,6 +35,13 @@
 		50F6A7972051BF1300317BDB /* rallypoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7962051BF1300317BDB /* rallypoint.png */; };
 		50F6A7992051C32C00317BDB /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7982051C32C00317BDB /* map.png */; };
 		50F6A79B2051C7E300317BDB /* RallyPointController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6A79A2051C7E300317BDB /* RallyPointController.swift */; };
+		50F6A79D2051DF9000317BDB /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A79C2051DF8F00317BDB /* chat.png */; };
+		50F6A79F2051E16900317BDB /* distance.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A79E2051E16800317BDB /* distance.png */; };
+		50F6A7A12051E1F300317BDB /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7A02051E1F300317BDB /* calendar.png */; };
+		50F6A7A32051E24300317BDB /* add-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7A22051E24300317BDB /* add-user.png */; };
+		50F6A7A52051E2DA00317BDB /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7A42051E2DA00317BDB /* group.png */; };
+		50F6A7B220520D1B00317BDB /* controls.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7B120520D1B00317BDB /* controls.png */; };
+		50F6A7B420520D7E00317BDB /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6A7B320520D7E00317BDB /* DirectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,10 +97,11 @@
 		50A56F652025695B00AED095 /* Underdark */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Underdark; path = /Users/abenwood/Desktop/Rally/Underdark; sourceTree = "<absolute>"; };
 		50A56F6620256B4A00AED095 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = Underdark/ProtocolBuffers.framework; sourceTree = "<group>"; };
 		50A56F6A20256B6700AED095 /* Underdark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Underdark.framework; path = Underdark/Underdark.framework; sourceTree = "<group>"; };
-		50A56F6D20256D3C00AED095 /* rally_logo_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rally_logo_only.png; path = "../../Files For Rally/rally_logo_only.png"; sourceTree = "<group>"; };
 		50A56F73202575DE00AED095 /* rallyupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rallyupicon.png; path = "../../Files For Rally/rallyupicon.png"; sourceTree = "<group>"; };
 		50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Havelock_Titling_Regular.otf; sourceTree = "<group>"; };
-		50CF03B4204A511100FF402C /* menu-options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-options.png"; path = "../../menu-options.png"; sourceTree = "<group>"; };
+		50A599032053906900EF8EC8 /* RallyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RallyIcon.png; sourceTree = "<group>"; };
+		50A599052053933000EF8EC8 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		50E835C42052649B00C9067E /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		50F6A784204F98B000317BDB /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
 		50F6A78A2051089A00317BDB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		50F6A78B2051089A00317BDB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +109,19 @@
 		50F6A7962051BF1300317BDB /* rallypoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rallypoint.png; sourceTree = "<group>"; };
 		50F6A7982051C32C00317BDB /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		50F6A79A2051C7E300317BDB /* RallyPointController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RallyPointController.swift; sourceTree = "<group>"; };
+		50F6A79C2051DF8F00317BDB /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		50F6A79E2051E16800317BDB /* distance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = distance.png; sourceTree = "<group>"; };
+		50F6A7A02051E1F300317BDB /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		50F6A7A22051E24300317BDB /* add-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-user.png"; sourceTree = "<group>"; };
+		50F6A7A42051E2DA00317BDB /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		50F6A7A92052037000317BDB /* rally_logo_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rally_logo_only.png; sourceTree = "<group>"; };
+		50F6A7AA2052037500317BDB /* rally_logo_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rally_logo_only.png; path = "../../../Files For Rally/rally_logo_only.png"; sourceTree = "<group>"; };
+		50F6A7AB2052037600317BDB /* menu-options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-options.png"; sourceTree = "<group>"; };
+		50F6A7AC2052037C00317BDB /* rally_logo_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rally_logo_only.png; path = "../../../Files For Rally/rally_logo_only.png"; sourceTree = "<group>"; };
+		50F6A7AE205203A100317BDB /* rallyupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rallyupicon.png; sourceTree = "<group>"; };
+		50F6A7AF205203A400317BDB /* rallyupicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rallyupicon.png; path = "../../../Files For Rally/rallyupicon.png"; sourceTree = "<group>"; };
+		50F6A7B120520D1B00317BDB /* controls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controls.png; sourceTree = "<group>"; };
+		50F6A7B320520D7E00317BDB /* DirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
 		B9013EBEF8E9842E485A539B /* Pods-Rally.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rally.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rally/Pods-Rally.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,16 +183,14 @@
 			isa = PBXGroup;
 			children = (
 				50A56F7D2025797A00AED095 /* fonts */,
-				50A56F6D20256D3C00AED095 /* rally_logo_only.png */,
-				50F6A784204F98B000317BDB /* compass.png */,
-				50CF03B4204A511100FF402C /* menu-options.png */,
-				50F6A7962051BF1300317BDB /* rallypoint.png */,
-				50F6A7982051C32C00317BDB /* map.png */,
-				50F6A7942051BB9B00317BDB /* placeholder.png */,
+				50F6A7A82052035F00317BDB /* images */,
 				50A56F73202575DE00AED095 /* rallyupicon.png */,
+				50A599032053906900EF8EC8 /* RallyIcon.png */,
 				50A163FB201C3CBC00F80123 /* AppDelegate.swift */,
 				50A163FD201C3CBC00F80123 /* MainViewController.swift */,
 				50F6A79A2051C7E300317BDB /* RallyPointController.swift */,
+				50E835C42052649B00C9067E /* EventViewController.swift */,
+				50F6A7B320520D7E00317BDB /* DirectionViewController.swift */,
 				50F6A78B2051089A00317BDB /* BaseViewController.swift */,
 				50F6A78A2051089A00317BDB /* MenuViewController.swift */,
 				5013E4C9201D162C002B13B4 /* style.json */,
@@ -206,6 +226,30 @@
 				50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		50F6A7A82052035F00317BDB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				50F6A7B120520D1B00317BDB /* controls.png */,
+				50F6A7AA2052037500317BDB /* rally_logo_only.png */,
+				50F6A7AF205203A400317BDB /* rallyupicon.png */,
+				50F6A7AE205203A100317BDB /* rallyupicon.png */,
+				50F6A7942051BB9B00317BDB /* placeholder.png */,
+				50F6A79C2051DF8F00317BDB /* chat.png */,
+				50F6A7AC2052037C00317BDB /* rally_logo_only.png */,
+				50A599052053933000EF8EC8 /* user.png */,
+				50F6A784204F98B000317BDB /* compass.png */,
+				50F6A7AB2052037600317BDB /* menu-options.png */,
+				50F6A7962051BF1300317BDB /* rallypoint.png */,
+				50F6A7982051C32C00317BDB /* map.png */,
+				50F6A7A02051E1F300317BDB /* calendar.png */,
+				50F6A7A22051E24300317BDB /* add-user.png */,
+				50F6A79E2051E16800317BDB /* distance.png */,
+				50F6A7A42051E2DA00317BDB /* group.png */,
+				50F6A7A92052037000317BDB /* rally_logo_only.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		A46BE5DCA192BCE4F957A627 /* Pods */ = {
@@ -337,17 +381,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F6A785204F98B000317BDB /* compass.png in Resources */,
-				50CF03B5204A511100FF402C /* menu-options.png in Resources */,
 				50F6A7992051C32C00317BDB /* map.png in Resources */,
+				50F6A7A52051E2DA00317BDB /* group.png in Resources */,
+				50F6A79D2051DF9000317BDB /* chat.png in Resources */,
+				50F6A79F2051E16900317BDB /* distance.png in Resources */,
+				50F6A7B220520D1B00317BDB /* controls.png in Resources */,
 				50CF03B6204A564100FF402C /* Havelock_Titling_Regular.otf in Resources */,
 				50A16406201C3CBC00F80123 /* LaunchScreen.storyboard in Resources */,
 				50137BB5201D10A700D0A1F3 /* Podfile in Resources */,
 				5013E4CA201D162C002B13B4 /* style.json in Resources */,
+				50F6A7A12051E1F300317BDB /* calendar.png in Resources */,
 				50A16403201C3CBC00F80123 /* Assets.xcassets in Resources */,
+				50A599062053933000EF8EC8 /* user.png in Resources */,
 				50A56F74202575DF00AED095 /* rallyupicon.png in Resources */,
+				50F6A7A32051E24300317BDB /* add-user.png in Resources */,
 				50A16401201C3CBC00F80123 /* Main.storyboard in Resources */,
+				50A599042053906900EF8EC8 /* RallyIcon.png in Resources */,
 				50F6A7952051BB9B00317BDB /* placeholder.png in Resources */,
-				50A56F6E20256D3C00AED095 /* rally_logo_only.png in Resources */,
 				50F6A7972051BF1300317BDB /* rallypoint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +481,8 @@
 			files = (
 				50F6A78D2051089B00317BDB /* BaseViewController.swift in Sources */,
 				50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */,
+				50E835C52052649B00C9067E /* EventViewController.swift in Sources */,
+				50F6A7B420520D7E00317BDB /* DirectionViewController.swift in Sources */,
 				50F6A79B2051C7E300317BDB /* RallyPointController.swift in Sources */,
 				50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */,
 				50F6A78C2051089B00317BDB /* MenuViewController.swift in Sources */,
