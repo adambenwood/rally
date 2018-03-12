@@ -8,11 +8,11 @@
 
 import UIKit
 
-class RallyPointController: BaseViewController {
+class RallyPointController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addSlideMenuButton()
+        
         // Do any additional setup after loading the view.
     }
 

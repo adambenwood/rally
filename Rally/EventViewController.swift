@@ -8,11 +8,10 @@
 
 import UIKit
 
-class EventViewController: BaseViewController {
+class EventViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addSlideMenuButton()
         // Do any additional setup after loading the view.
     }
 
