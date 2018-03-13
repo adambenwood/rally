@@ -42,6 +42,12 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
             self.openViewControllerBasedOnIdentifier("Event")
             
             break
+        case 5:
+            print("Settings\n", terminator: "")
+            
+            self.openViewControllerBasedOnIdentifier("Settings")
+            
+            break
         default:
             print("default\n", terminator: "")
         }

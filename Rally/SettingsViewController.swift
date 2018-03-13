@@ -1,22 +1,18 @@
 //
-//  DirectionViewController.swift
+//  SettingsViewController.swift
 //  Rally
 //
-//  Created by Adam Benwood on 2018-03-08.
+//  Created by Adam Benwood on 2018-03-12.
 //  Copyright © 2018 Adam Benwood. All rights reserved.
 //
 
 import UIKit
 
-class DirectionViewController: UIViewController {
-    
+class SettingsViewController: UIViewController {
 
-    var distanceMessage = "10M FROM RALLY POINT"
-    var pickerData = ["RallyPoint","Jen","Rob"]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -24,10 +20,8 @@ class DirectionViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
-    
-    @IBOutlet var selectLabel: UILabel!
-    
     /*
     // MARK: - Navigation
 
