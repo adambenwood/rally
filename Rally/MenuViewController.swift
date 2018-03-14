@@ -49,10 +49,14 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    var count = 0 //ensures that menu options will not stack
     override func viewWillAppear(_ animated: Bool) {
+        
         super.viewWillAppear(animated)
-        updateArrayMenuOptions()
+        if count == 0 {
+            updateArrayMenuOptions()
+            count += 1
+        }
     }
     
     func updateArrayMenuOptions(){
