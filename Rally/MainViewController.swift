@@ -64,8 +64,8 @@ class MainViewController: BaseViewController{
         
         
         //load default map position
-        let camera = GMSCameraPosition.camera(withLatitude: 49.238927,
-                                              longitude: -122.970271,
+        let camera = GMSCameraPosition.camera(withLatitude: 33.683300,
+                                              longitude: -116.238800,
                                               zoom: 17)
         mapView = GMSMapView.map(withFrame: .zero, camera: camera)
         mapView.settings.myLocationButton = true
@@ -103,7 +103,7 @@ class MainViewController: BaseViewController{
         
         // Demo Code
         let person1 = GMSMarker()
-        person1.position = CLLocationCoordinate2D(latitude: 49.239385, longitude: -122.968851)
+        person1.position = CLLocationCoordinate2D(latitude: 33.683943, longitude: -116.239338)
         person1.title = "Jen"
         person1.snippet = "45M"
         var image = UIImage(named: "circle.png")
@@ -112,7 +112,7 @@ class MainViewController: BaseViewController{
         person1.map = mapView
         
         let person2 = GMSMarker()
-        person2.position = CLLocationCoordinate2D(latitude: 49.238521, longitude: -122.970058)
+        person2.position = CLLocationCoordinate2D(latitude: 33.683972, longitude: -116.238465)
         person2.title = "Rob"
         person2.snippet = "10M"
         var image2 = UIImage(named: "circle.png")
@@ -120,13 +120,54 @@ class MainViewController: BaseViewController{
         person2.icon = image2?.resizeImage(targetSize: CGSize(width: 10, height: 10))
         person2.map = mapView
         
+        let person3 = GMSMarker()
+        person3.position = CLLocationCoordinate2D(latitude: 33.683963, longitude: -116.238809)
+        person3.title = "Brandon"
+        person3.snippet = "8M"
+        var image3 = UIImage(named: "circle.png")
+        image3 = image3?.maskWithColor(color: getRandomColor())
+        person3.icon = image3?.resizeImage(targetSize: CGSize(width: 10, height: 10))
+        person3.map = mapView
+        
         let rallypoint = GMSMarker()
-        rallypoint.position = CLLocationCoordinate2D(latitude: 49.239122, longitude: -122.971343)
+        rallypoint.position = CLLocationCoordinate2D(latitude:33.682864, longitude: -116.237731)
         rallypoint.title = "RallyPoint"
         rallypoint.snippet = "Meet In 10 Mins"
-        let image3 = UIImage(named: "rallypoint.png")
-        rallypoint.icon = image3?.resizeImage(targetSize: CGSize(width: 30, height: 30))
+        let rallyimage = UIImage(named: "rallypoint.png")
+        rallypoint.icon = rallyimage?.resizeImage(targetSize: CGSize(width: 30, height: 30))
         rallypoint.map = mapView
+        
+        // Create MainStage Object
+        let mainStage = GMSMutablePath()
+        
+        mainStage.add(CLLocationCoordinate2D(latitude: 33.684306, longitude: -116.238526))
+        mainStage.add(CLLocationCoordinate2D(latitude: 33.684309, longitude: -116.239164))
+        mainStage.add(CLLocationCoordinate2D(latitude: 33.684610, longitude: -116.239137))
+        mainStage.add(CLLocationCoordinate2D(latitude: 33.684590, longitude: -116.238523))
+        
+        // Create the polygon, and assign it to the map.
+        let polygon = GMSPolygon(path: mainStage)
+        polygon.title = "MainStage"
+        polygon.fillColor = UIColor.darkGray
+        //polygon.strokeColor = .orange
+        //polygon.strokeWidth = 2
+        polygon.map = mapView
+        
+        // Create outdoorTheatre Object
+        let outdoorTheatre = GMSMutablePath()
+        
+        outdoorTheatre.add(CLLocationCoordinate2D(latitude: 33.684658, longitude: -116.235183))
+        outdoorTheatre.add(CLLocationCoordinate2D(latitude: 33.684434, longitude: -116.234799))
+        outdoorTheatre.add(CLLocationCoordinate2D(latitude: 33.684180, longitude: -116.235028))
+        outdoorTheatre.add(CLLocationCoordinate2D(latitude: 33.684404, longitude: -116.235430))
+        
+        // Create the polygon, and assign it to the map.
+        let polygon2 = GMSPolygon(path: outdoorTheatre)
+        polygon2.title = "Outdoor Theatre"
+        polygon2.fillColor = UIColor.darkGray
+        //polygon2.strokeColor = .black
+        //polygon2.strokeWidth = 2
+        polygon2.map = mapView
         
     }
     func getRandomColor() -> UIColor{

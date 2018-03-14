@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00AFA6D213C12E596F955329 /* libPods-Rally.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F9B0996DB22DD3488B254E /* libPods-Rally.a */; };
 		50137BB5201D10A700D0A1F3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 50137BB4201D10A700D0A1F3 /* Podfile */; };
 		5013E4CA201D162C002B13B4 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 5013E4C9201D162C002B13B4 /* style.json */; };
 		50347DDA2058A91A0095DDB0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DD92058A91A0095DDB0 /* ProfileViewController.swift */; };
 		50347DDD2058E5BF0095DDB0 /* Rally.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50347DDB2058E5BF0095DDB0 /* Rally.xcdatamodeld */; };
+		50347DDF2058E7E40095DDB0 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DDE2058E7E40095DDB0 /* AppModel.swift */; };
+		50347DE22058E9E90095DDB0 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DE12058E9E90095DDB0 /* Node.swift */; };
+		50347DEB2058EFC60095DDB0 /* FormLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DE82058EFC60095DDB0 /* FormLogger.swift */; };
+		50347DEC2058EFC60095DDB0 /* UDJackLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DE92058EFC60095DDB0 /* UDJackLogger.swift */; };
+		50347DED2058EFC60095DDB0 /* LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DEA2058EFC60095DDB0 /* LogFormatter.swift */; };
+		50347DEF2058F3DE0095DDB0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DEE2058F3DE0095DDB0 /* TestViewController.swift */; };
 		50353DD92057A545002EAB9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50353DD82057A545002EAB9A /* SettingsViewController.swift */; };
 		50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FB201C3CBC00F80123 /* AppDelegate.swift */; };
 		50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FD201C3CBC00F80123 /* MainViewController.swift */; };
@@ -48,6 +53,7 @@
 		50F6A7A52051E2DA00317BDB /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7A42051E2DA00317BDB /* group.png */; };
 		50F6A7B220520D1B00317BDB /* controls.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F6A7B120520D1B00317BDB /* controls.png */; };
 		50F6A7B420520D7E00317BDB /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F6A7B320520D7E00317BDB /* DirectionViewController.swift */; };
+		B3D7964DA6651B34BA24EF90 /* Pods_Rally.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC505176707C829AE1BA2E6A /* Pods_Rally.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,11 +90,16 @@
 
 /* Begin PBXFileReference section */
 		27A9F4EE82BDC4A5F61F4FE7 /* Pods-Rally.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rally.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rally/Pods-Rally.debug.xcconfig"; sourceTree = "<group>"; };
-		49F9B0996DB22DD3488B254E /* libPods-Rally.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rally.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50137BB4201D10A700D0A1F3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5013E4C9201D162C002B13B4 /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		50347DD92058A91A0095DDB0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		50347DDC2058E5BF0095DDB0 /* Rally.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rally.xcdatamodel; sourceTree = "<group>"; };
+		50347DDE2058E7E40095DDB0 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		50347DE12058E9E90095DDB0 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		50347DE82058EFC60095DDB0 /* FormLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormLogger.swift; sourceTree = "<group>"; };
+		50347DE92058EFC60095DDB0 /* UDJackLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDJackLogger.swift; sourceTree = "<group>"; };
+		50347DEA2058EFC60095DDB0 /* LogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogFormatter.swift; sourceTree = "<group>"; };
+		50347DEE2058F3DE0095DDB0 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		50353DD82057A545002EAB9A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		50A163F8201C3CBC00F80123 /* Rally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A163FB201C3CBC00F80123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +146,7 @@
 		50F6A7B120520D1B00317BDB /* controls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controls.png; sourceTree = "<group>"; };
 		50F6A7B320520D7E00317BDB /* DirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
 		B9013EBEF8E9842E485A539B /* Pods-Rally.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rally.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rally/Pods-Rally.release.xcconfig"; sourceTree = "<group>"; };
+		CC505176707C829AE1BA2E6A /* Pods_Rally.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rally.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +156,7 @@
 			files = (
 				50A56F6B20256B6700AED095 /* Underdark.framework in Frameworks */,
 				50A56F6720256B4A00AED095 /* ProtocolBuffers.framework in Frameworks */,
-				00AFA6D213C12E596F955329 /* libPods-Rally.a in Frameworks */,
+				B3D7964DA6651B34BA24EF90 /* Pods_Rally.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +177,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50347DE02058E9CF0095DDB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50347DE12058E9E90095DDB0 /* Node.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50347DE72058EFB80095DDB0 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				50347DE82058EFC60095DDB0 /* FormLogger.swift */,
+				50347DEA2058EFC60095DDB0 /* LogFormatter.swift */,
+				50347DE92058EFC60095DDB0 /* UDJackLogger.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
 		50A163EF201C3CBC00F80123 = {
 			isa = PBXGroup;
 			children = (
@@ -194,11 +224,15 @@
 		50A163FA201C3CBC00F80123 /* Rally */ = {
 			isa = PBXGroup;
 			children = (
+				50347DE72058EFB80095DDB0 /* Logging */,
 				50A56F7D2025797A00AED095 /* fonts */,
+				50347DE02058E9CF0095DDB0 /* Model */,
 				50F6A7A82052035F00317BDB /* images */,
 				50A56F73202575DE00AED095 /* rallyupicon.png */,
 				50A599032053906900EF8EC8 /* RallyIcon.png */,
+				50347DDE2058E7E40095DDB0 /* AppModel.swift */,
 				50A163FB201C3CBC00F80123 /* AppDelegate.swift */,
+				50347DEE2058F3DE0095DDB0 /* TestViewController.swift */,
 				50A163FD201C3CBC00F80123 /* MainViewController.swift */,
 				50F6A79A2051C7E300317BDB /* RallyPointController.swift */,
 				50E835C42052649B00C9067E /* EventViewController.swift */,
@@ -282,7 +316,7 @@
 		B2B00CBA5BB91993D329CD38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				49F9B0996DB22DD3488B254E /* libPods-Rally.a */,
+				CC505176707C829AE1BA2E6A /* Pods_Rally.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -466,9 +500,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rally/Pods-Rally-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/NSLogger/NSLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/XCDLumberjackNSLogger/XCDLumberjackNSLogger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDLumberjackNSLogger.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -502,11 +543,17 @@
 			files = (
 				50F6A78D2051089B00317BDB /* BaseViewController.swift in Sources */,
 				50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */,
+				50347DEF2058F3DE0095DDB0 /* TestViewController.swift in Sources */,
+				50347DDF2058E7E40095DDB0 /* AppModel.swift in Sources */,
+				50347DEB2058EFC60095DDB0 /* FormLogger.swift in Sources */,
+				50347DE22058E9E90095DDB0 /* Node.swift in Sources */,
 				50E835C52052649B00C9067E /* EventViewController.swift in Sources */,
 				50F6A7B420520D7E00317BDB /* DirectionViewController.swift in Sources */,
+				50347DEC2058EFC60095DDB0 /* UDJackLogger.swift in Sources */,
 				50F6A79B2051C7E300317BDB /* RallyPointController.swift in Sources */,
 				50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */,
 				50347DDA2058A91A0095DDB0 /* ProfileViewController.swift in Sources */,
+				50347DED2058EFC60095DDB0 /* LogFormatter.swift in Sources */,
 				50F6A78C2051089B00317BDB /* MenuViewController.swift in Sources */,
 				50347DDD2058E5BF0095DDB0 /* Rally.xcdatamodeld in Sources */,
 				50353DD92057A545002EAB9A /* SettingsViewController.swift in Sources */,

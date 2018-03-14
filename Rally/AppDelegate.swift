@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        AppModel.shared.configure()
         GMSServices.provideAPIKey("AIzaSyDzcrSfIWOpkBwzdZMOm0zG1EHGp441nIE")
         self.window?.tintColor = UIColor.orange
         return true
