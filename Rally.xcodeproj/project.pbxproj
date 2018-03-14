@@ -11,6 +11,7 @@
 		50137BB5201D10A700D0A1F3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 50137BB4201D10A700D0A1F3 /* Podfile */; };
 		5013E4CA201D162C002B13B4 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 5013E4C9201D162C002B13B4 /* style.json */; };
 		50347DDA2058A91A0095DDB0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DD92058A91A0095DDB0 /* ProfileViewController.swift */; };
+		50347DDD2058E5BF0095DDB0 /* Rally.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50347DDB2058E5BF0095DDB0 /* Rally.xcdatamodeld */; };
 		50353DD92057A545002EAB9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50353DD82057A545002EAB9A /* SettingsViewController.swift */; };
 		50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FB201C3CBC00F80123 /* AppDelegate.swift */; };
 		50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FD201C3CBC00F80123 /* MainViewController.swift */; };
@@ -87,6 +88,7 @@
 		50137BB4201D10A700D0A1F3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5013E4C9201D162C002B13B4 /* style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		50347DD92058A91A0095DDB0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		50347DDC2058E5BF0095DDB0 /* Rally.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rally.xcdatamodel; sourceTree = "<group>"; };
 		50353DD82057A545002EAB9A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		50A163F8201C3CBC00F80123 /* Rally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A163FB201C3CBC00F80123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				50F6A78B2051089A00317BDB /* BaseViewController.swift */,
 				50F6A78A2051089A00317BDB /* MenuViewController.swift */,
 				5013E4C9201D162C002B13B4 /* style.json */,
+				50347DDB2058E5BF0095DDB0 /* Rally.xcdatamodeld */,
 				50A163FF201C3CBC00F80123 /* Main.storyboard */,
 				50A16402201C3CBC00F80123 /* Assets.xcassets */,
 				50A16404201C3CBC00F80123 /* LaunchScreen.storyboard */,
@@ -505,6 +508,7 @@
 				50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */,
 				50347DDA2058A91A0095DDB0 /* ProfileViewController.swift in Sources */,
 				50F6A78C2051089B00317BDB /* MenuViewController.swift in Sources */,
+				50347DDD2058E5BF0095DDB0 /* Rally.xcdatamodeld in Sources */,
 				50353DD92057A545002EAB9A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -807,6 +811,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50347DDB2058E5BF0095DDB0 /* Rally.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50347DDC2058E5BF0095DDB0 /* Rally.xcdatamodel */,
+			);
+			currentVersion = 50347DDC2058E5BF0095DDB0 /* Rally.xcdatamodel */;
+			path = Rally.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 50A163F0201C3CBC00F80123 /* Project object */;
 }
