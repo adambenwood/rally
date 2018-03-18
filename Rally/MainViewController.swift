@@ -131,8 +131,8 @@ class MainViewController: BaseViewController{
         
         let rallypoint = GMSMarker()
         rallypoint.position = CLLocationCoordinate2D(latitude:33.682864, longitude: -116.237731)
-        rallypoint.title = "RallyPoint"
-        rallypoint.snippet = "Meet In 10 Mins"
+        rallypoint.title = "Meetup in 10 Mins"
+        rallypoint.snippet = "Requested by Adam"
         let rallyimage = UIImage(named: "rallypoint.png")
         rallypoint.icon = rallyimage?.resizeImage(targetSize: CGSize(width: 30, height: 30))
         rallypoint.map = mapView

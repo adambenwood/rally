@@ -18,6 +18,12 @@
 		50347DED2058EFC60095DDB0 /* LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DEA2058EFC60095DDB0 /* LogFormatter.swift */; };
 		50347DEF2058F3DE0095DDB0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DEE2058F3DE0095DDB0 /* TestViewController.swift */; };
 		50353DD92057A545002EAB9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50353DD82057A545002EAB9A /* SettingsViewController.swift */; };
+		507CD29E205EF64A0015ABD8 /* weeknd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD29D205EF6490015ABD8 /* weeknd.jpg */; };
+		507CD2A0205EF7320015ABD8 /* kygo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD29F205EF7320015ABD8 /* kygo.jpg */; };
+		507CD2A2205EF8490015ABD8 /* vincent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2A1205EF8490015ABD8 /* vincent.jpg */; };
+		507CD2A4205EF96A0015ABD8 /* twod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2A3205EF96A0015ABD8 /* twod.jpg */; };
+		507CD2A6205EF9F80015ABD8 /* vincestaples.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2A5205EF9F70015ABD8 /* vincestaples.jpg */; };
+		507CD2A8205EFA5D0015ABD8 /* walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2A7205EFA5C0015ABD8 /* walker.jpg */; };
 		50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FB201C3CBC00F80123 /* AppDelegate.swift */; };
 		50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FD201C3CBC00F80123 /* MainViewController.swift */; };
 		50A16401201C3CBC00F80123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A163FF201C3CBC00F80123 /* Main.storyboard */; };
@@ -101,6 +107,12 @@
 		50347DEA2058EFC60095DDB0 /* LogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogFormatter.swift; sourceTree = "<group>"; };
 		50347DEE2058F3DE0095DDB0 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		50353DD82057A545002EAB9A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		507CD29D205EF6490015ABD8 /* weeknd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weeknd.jpg; sourceTree = "<group>"; };
+		507CD29F205EF7320015ABD8 /* kygo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kygo.jpg; sourceTree = "<group>"; };
+		507CD2A1205EF8490015ABD8 /* vincent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vincent.jpg; sourceTree = "<group>"; };
+		507CD2A3205EF96A0015ABD8 /* twod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twod.jpg; sourceTree = "<group>"; };
+		507CD2A5205EF9F70015ABD8 /* vincestaples.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vincestaples.jpg; sourceTree = "<group>"; };
+		507CD2A7205EFA5C0015ABD8 /* walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walker.jpg; sourceTree = "<group>"; };
 		50A163F8201C3CBC00F80123 /* Rally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A163FB201C3CBC00F80123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50A163FD201C3CBC00F80123 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -281,11 +293,17 @@
 			isa = PBXGroup;
 			children = (
 				50F6A7B120520D1B00317BDB /* controls.png */,
+				507CD2A7205EFA5C0015ABD8 /* walker.jpg */,
 				50F6A7AA2052037500317BDB /* rally_logo_only.png */,
 				50F6A7AF205203A400317BDB /* rallyupicon.png */,
 				50F6A7AE205203A100317BDB /* rallyupicon.png */,
 				50F6A7942051BB9B00317BDB /* placeholder.png */,
 				50A599072056529600EF8EC8 /* circle.png */,
+				507CD29D205EF6490015ABD8 /* weeknd.jpg */,
+				507CD29F205EF7320015ABD8 /* kygo.jpg */,
+				507CD2A3205EF96A0015ABD8 /* twod.jpg */,
+				507CD2A1205EF8490015ABD8 /* vincent.jpg */,
+				507CD2A5205EF9F70015ABD8 /* vincestaples.jpg */,
 				50F6A79C2051DF8F00317BDB /* chat.png */,
 				50F6A7AC2052037C00317BDB /* rally_logo_only.png */,
 				50A599052053933000EF8EC8 /* user.png */,
@@ -432,6 +450,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507CD29E205EF64A0015ABD8 /* weeknd.jpg in Resources */,
+				507CD2A2205EF8490015ABD8 /* vincent.jpg in Resources */,
+				507CD2A0205EF7320015ABD8 /* kygo.jpg in Resources */,
 				50F6A785204F98B000317BDB /* compass.png in Resources */,
 				50F6A7992051C32C00317BDB /* map.png in Resources */,
 				50F6A7A52051E2DA00317BDB /* group.png in Resources */,
@@ -442,6 +463,8 @@
 				50A599082056529700EF8EC8 /* circle.png in Resources */,
 				50A16406201C3CBC00F80123 /* LaunchScreen.storyboard in Resources */,
 				50137BB5201D10A700D0A1F3 /* Podfile in Resources */,
+				507CD2A4205EF96A0015ABD8 /* twod.jpg in Resources */,
+				507CD2A6205EF9F80015ABD8 /* vincestaples.jpg in Resources */,
 				5013E4CA201D162C002B13B4 /* style.json in Resources */,
 				50A599142056729100EF8EC8 /* pemberton-music-festival-evening.jpg in Resources */,
 				50A599102056705700EF8EC8 /* concert.png in Resources */,
@@ -454,6 +477,7 @@
 				50A599042053906900EF8EC8 /* RallyIcon.png in Resources */,
 				50F6A7952051BB9B00317BDB /* placeholder.png in Resources */,
 				50F6A7972051BF1300317BDB /* rallypoint.png in Resources */,
+				507CD2A8205EFA5D0015ABD8 /* walker.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
