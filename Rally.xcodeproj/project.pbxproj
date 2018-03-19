@@ -24,6 +24,12 @@
 		507CD2A4205EF96A0015ABD8 /* twod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2A3205EF96A0015ABD8 /* twod.jpg */; };
 		507CD2A6205EF9F80015ABD8 /* vincestaples.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2A5205EF9F70015ABD8 /* vincestaples.jpg */; };
 		507CD2A8205EFA5D0015ABD8 /* walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2A7205EFA5C0015ABD8 /* walker.jpg */; };
+		507CD2AA205F7CDE0015ABD8 /* coachella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2A9205F7CDD0015ABD8 /* coachella.jpg */; };
+		507CD2AC205F88F60015ABD8 /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2AB205F88F50015ABD8 /* stage.png */; };
+		507CD2AF205F8B450015ABD8 /* circle-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2AE205F8B450015ABD8 /* circle-green.png */; };
+		507CD2B1205F8B4A0015ABD8 /* circle-purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2B0205F8B4A0015ABD8 /* circle-purple.png */; };
+		507CD2B3205F8B4E0015ABD8 /* circle-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2B2205F8B4E0015ABD8 /* circle-blue.png */; };
+		507CD2B5205F8B510015ABD8 /* circle-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 507CD2B4205F8B510015ABD8 /* circle-red.png */; };
 		50A163FC201C3CBC00F80123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FB201C3CBC00F80123 /* AppDelegate.swift */; };
 		50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A163FD201C3CBC00F80123 /* MainViewController.swift */; };
 		50A16401201C3CBC00F80123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A163FF201C3CBC00F80123 /* Main.storyboard */; };
@@ -39,7 +45,6 @@
 		50A599042053906900EF8EC8 /* RallyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A599032053906900EF8EC8 /* RallyIcon.png */; };
 		50A599062053933000EF8EC8 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A599052053933000EF8EC8 /* user.png */; };
 		50A599082056529700EF8EC8 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A599072056529600EF8EC8 /* circle.png */; };
-		50A599102056705700EF8EC8 /* concert.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A5990F2056705600EF8EC8 /* concert.png */; };
 		50A599142056729100EF8EC8 /* pemberton-music-festival-evening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50A599132056729000EF8EC8 /* pemberton-music-festival-evening.jpg */; };
 		50CF03B6204A564100FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
 		50CF03B7204A564200FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
@@ -113,6 +118,12 @@
 		507CD2A3205EF96A0015ABD8 /* twod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twod.jpg; sourceTree = "<group>"; };
 		507CD2A5205EF9F70015ABD8 /* vincestaples.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vincestaples.jpg; sourceTree = "<group>"; };
 		507CD2A7205EFA5C0015ABD8 /* walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walker.jpg; sourceTree = "<group>"; };
+		507CD2A9205F7CDD0015ABD8 /* coachella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coachella.jpg; sourceTree = "<group>"; };
+		507CD2AB205F88F50015ABD8 /* stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage.png; sourceTree = "<group>"; };
+		507CD2AE205F8B450015ABD8 /* circle-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-green.png"; sourceTree = "<group>"; };
+		507CD2B0205F8B4A0015ABD8 /* circle-purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-purple.png"; sourceTree = "<group>"; };
+		507CD2B2205F8B4E0015ABD8 /* circle-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-blue.png"; sourceTree = "<group>"; };
+		507CD2B4205F8B510015ABD8 /* circle-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-red.png"; sourceTree = "<group>"; };
 		50A163F8201C3CBC00F80123 /* Rally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A163FB201C3CBC00F80123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50A163FD201C3CBC00F80123 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -134,7 +145,6 @@
 		50A599032053906900EF8EC8 /* RallyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RallyIcon.png; sourceTree = "<group>"; };
 		50A599052053933000EF8EC8 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		50A599072056529600EF8EC8 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
-		50A5990F2056705600EF8EC8 /* concert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concert.png; sourceTree = "<group>"; };
 		50A599132056729000EF8EC8 /* pemberton-music-festival-evening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pemberton-music-festival-evening.jpg"; sourceTree = "<group>"; };
 		50E835C42052649B00C9067E /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 		50F6A784204F98B000317BDB /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
@@ -205,6 +215,17 @@
 				50347DE92058EFC60095DDB0 /* UDJackLogger.swift */,
 			);
 			path = Logging;
+			sourceTree = "<group>";
+		};
+		507CD2AD205F8B360015ABD8 /* user-icons */ = {
+			isa = PBXGroup;
+			children = (
+				507CD2AE205F8B450015ABD8 /* circle-green.png */,
+				507CD2B0205F8B4A0015ABD8 /* circle-purple.png */,
+				507CD2B2205F8B4E0015ABD8 /* circle-blue.png */,
+				507CD2B4205F8B510015ABD8 /* circle-red.png */,
+			);
+			path = "user-icons";
 			sourceTree = "<group>";
 		};
 		50A163EF201C3CBC00F80123 = {
@@ -292,6 +313,8 @@
 		50F6A7A82052035F00317BDB /* images */ = {
 			isa = PBXGroup;
 			children = (
+				507CD2AD205F8B360015ABD8 /* user-icons */,
+				507CD2AB205F88F50015ABD8 /* stage.png */,
 				50F6A7B120520D1B00317BDB /* controls.png */,
 				507CD2A7205EFA5C0015ABD8 /* walker.jpg */,
 				50F6A7AA2052037500317BDB /* rally_logo_only.png */,
@@ -306,6 +329,7 @@
 				507CD2A5205EF9F70015ABD8 /* vincestaples.jpg */,
 				50F6A79C2051DF8F00317BDB /* chat.png */,
 				50F6A7AC2052037C00317BDB /* rally_logo_only.png */,
+				507CD2A9205F7CDD0015ABD8 /* coachella.jpg */,
 				50A599052053933000EF8EC8 /* user.png */,
 				50F6A784204F98B000317BDB /* compass.png */,
 				50A599132056729000EF8EC8 /* pemberton-music-festival-evening.jpg */,
@@ -313,7 +337,6 @@
 				50F6A7962051BF1300317BDB /* rallypoint.png */,
 				50F6A7982051C32C00317BDB /* map.png */,
 				50F6A7A02051E1F300317BDB /* calendar.png */,
-				50A5990F2056705600EF8EC8 /* concert.png */,
 				50F6A7A22051E24300317BDB /* add-user.png */,
 				50F6A79E2051E16800317BDB /* distance.png */,
 				50F6A7A42051E2DA00317BDB /* group.png */,
@@ -451,26 +474,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				507CD29E205EF64A0015ABD8 /* weeknd.jpg in Resources */,
+				507CD2AF205F8B450015ABD8 /* circle-green.png in Resources */,
+				507CD2B1205F8B4A0015ABD8 /* circle-purple.png in Resources */,
 				507CD2A2205EF8490015ABD8 /* vincent.jpg in Resources */,
 				507CD2A0205EF7320015ABD8 /* kygo.jpg in Resources */,
 				50F6A785204F98B000317BDB /* compass.png in Resources */,
 				50F6A7992051C32C00317BDB /* map.png in Resources */,
 				50F6A7A52051E2DA00317BDB /* group.png in Resources */,
 				50F6A79D2051DF9000317BDB /* chat.png in Resources */,
+				507CD2B3205F8B4E0015ABD8 /* circle-blue.png in Resources */,
 				50F6A79F2051E16900317BDB /* distance.png in Resources */,
 				50F6A7B220520D1B00317BDB /* controls.png in Resources */,
 				50CF03B6204A564100FF402C /* Havelock_Titling_Regular.otf in Resources */,
 				50A599082056529700EF8EC8 /* circle.png in Resources */,
 				50A16406201C3CBC00F80123 /* LaunchScreen.storyboard in Resources */,
 				50137BB5201D10A700D0A1F3 /* Podfile in Resources */,
+				507CD2AA205F7CDE0015ABD8 /* coachella.jpg in Resources */,
+				507CD2B5205F8B510015ABD8 /* circle-red.png in Resources */,
 				507CD2A4205EF96A0015ABD8 /* twod.jpg in Resources */,
 				507CD2A6205EF9F80015ABD8 /* vincestaples.jpg in Resources */,
 				5013E4CA201D162C002B13B4 /* style.json in Resources */,
 				50A599142056729100EF8EC8 /* pemberton-music-festival-evening.jpg in Resources */,
-				50A599102056705700EF8EC8 /* concert.png in Resources */,
 				50F6A7A12051E1F300317BDB /* calendar.png in Resources */,
 				50A16403201C3CBC00F80123 /* Assets.xcassets in Resources */,
 				50A599062053933000EF8EC8 /* user.png in Resources */,
+				507CD2AC205F88F60015ABD8 /* stage.png in Resources */,
 				50A56F74202575DF00AED095 /* rallyupicon.png in Resources */,
 				50F6A7A32051E24300317BDB /* add-user.png in Resources */,
 				50A16401201C3CBC00F80123 /* Main.storyboard in Resources */,
