@@ -16,7 +16,6 @@
 		50347DEB2058EFC60095DDB0 /* FormLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DE82058EFC60095DDB0 /* FormLogger.swift */; };
 		50347DEC2058EFC60095DDB0 /* UDJackLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DE92058EFC60095DDB0 /* UDJackLogger.swift */; };
 		50347DED2058EFC60095DDB0 /* LogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DEA2058EFC60095DDB0 /* LogFormatter.swift */; };
-		50347DEF2058F3DE0095DDB0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DEE2058F3DE0095DDB0 /* TestViewController.swift */; };
 		50353DD92057A545002EAB9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50353DD82057A545002EAB9A /* SettingsViewController.swift */; };
 		507CD29E205EF64A0015ABD8 /* weeknd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD29D205EF6490015ABD8 /* weeknd.jpg */; };
 		507CD2A0205EF7320015ABD8 /* kygo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 507CD29F205EF7320015ABD8 /* kygo.jpg */; };
@@ -46,6 +45,7 @@
 		50A599062053933000EF8EC8 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A599052053933000EF8EC8 /* user.png */; };
 		50A599082056529700EF8EC8 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A599072056529600EF8EC8 /* circle.png */; };
 		50A599142056729100EF8EC8 /* pemberton-music-festival-evening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50A599132056729000EF8EC8 /* pemberton-music-festival-evening.jpg */; };
+		50CD011D2061F5D2007DFEA9 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50347DEE2058F3DE0095DDB0 /* TestViewController.swift */; };
 		50CF03B6204A564100FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
 		50CF03B7204A564200FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
 		50CF03B8204A564400FF402C /* Havelock_Titling_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 50A56F7E2025798100AED095 /* Havelock_Titling_Regular.otf */; };
@@ -595,7 +595,7 @@
 			files = (
 				50F6A78D2051089B00317BDB /* BaseViewController.swift in Sources */,
 				50A163FE201C3CBC00F80123 /* MainViewController.swift in Sources */,
-				50347DEF2058F3DE0095DDB0 /* TestViewController.swift in Sources */,
+				50CD011D2061F5D2007DFEA9 /* TestViewController.swift in Sources */,
 				50347DDF2058E7E40095DDB0 /* AppModel.swift in Sources */,
 				50347DEB2058EFC60095DDB0 /* FormLogger.swift in Sources */,
 				50347DE22058E9E90095DDB0 /* Node.swift in Sources */,

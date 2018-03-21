@@ -12,14 +12,16 @@ import Underdark;
 
 class TestViewController: UIViewController
 {
-    @IBOutlet weak var navItem: UINavigationItem!
-    
-    @IBOutlet weak var framesCountLabel: UILabel!
-    @IBOutlet weak var timeLabel: UILabel!
+
+    @IBOutlet var navItem: UINavigationItem!
+    @IBOutlet var framesCountLabel: UILabel!
+    @IBOutlet var timeLabel: UILabel!
     @IBOutlet weak var speedLabel: UILabel!
     
-    @IBOutlet weak var progressView: UIProgressView!
-    @IBOutlet weak var progressHeight: NSLayoutConstraint!
+    @IBOutlet var progressView: UIProgressView!
+    
+    @IBOutlet var progressHeight: NSLayoutConstraint!
+    
     
     fileprivate var node: Node!
     

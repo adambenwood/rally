@@ -54,7 +54,7 @@ class DirectionViewController: UIViewController, UITableViewDataSource, UITableV
         let cell : UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellMenu")!
         
         // set the text from the data model
-        cell.selectionStyle = UITableViewCellSelectionStyle.gray
+        //cell.selectionStyle = UITableViewCellSelectionStyle.init(rawValue: 5)!
         cell.layoutMargins = UIEdgeInsets.zero
         cell.preservesSuperviewLayoutMargins = false
         cell.backgroundColor = UIColor.clear

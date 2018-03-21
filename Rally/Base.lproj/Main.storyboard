@@ -711,7 +711,7 @@
         <!--Transfer-->
         <scene sceneID="h2K-eV-fh2">
             <objects>
-                <viewController id="eLC-vQ-xt3" customClass="TestViewController" sceneMemberID="viewController">
+                <viewController id="eLC-vQ-xt3" customClass="TestViewController" customModule="Rally" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gcy-UG-yvn"/>
                         <viewControllerLayoutGuide type="bottom" id="b5R-7e-TiD"/>
@@ -766,7 +766,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="sendFramesSmall:" destination="eLC-vQ-xt3" eventType="touchUpInside" id="C65-u7-wHw"/>
+                                    <action selector="sendFramesLarge:" destination="eLC-vQ-xt3" eventType="touchUpInside" id="mwa-uA-FJ7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFE-oZ-DWC">
@@ -784,9 +784,6 @@
                                         <integer key="value" value="6"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="sendFramesLarge:" destination="eLC-vQ-xt3" eventType="touchUpInside" id="Fqh-vF-0Dh"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 seconds" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sV-Ao-6v0">
                                 <rect key="frame" x="16" y="166" width="343" height="39"/>
@@ -813,7 +810,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="sendFramesVeryLarge:" destination="eLC-vQ-xt3" eventType="touchUpInside" id="E5Y-MI-vze"/>
+                                    <action selector="sendFramesVeryLarge:" destination="eLC-vQ-xt3" eventType="touchUpInside" id="BFD-jK-uEB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKc-u1-Sdw">
@@ -832,7 +829,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="sendFramesGigantic:" destination="eLC-vQ-xt3" eventType="touchUpInside" id="6IM-Xj-Jrf"/>
+                                    <action selector="sendFramesGigantic:" destination="eLC-vQ-xt3" eventType="touchUpInside" id="wI0-J9-wRw"/>
+                                    <action selector="sendFramesSmall:" destination="eLC-vQ-xt3" eventType="touchUpInside" id="Omz-EB-gNL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -866,12 +864,12 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Transfer" id="yZI-Y0-5Bi"/>
                     <connections>
-                        <outlet property="framesCountLabel" destination="NV3-F9-EsT" id="Zqd-o2-deG"/>
-                        <outlet property="navItem" destination="OKw-D0-Mya" id="yt5-iI-fXW"/>
-                        <outlet property="progressHeight" destination="0Qk-Bw-vA8" id="jrL-8P-QM8"/>
-                        <outlet property="progressView" destination="XTa-Ob-9H3" id="6ZB-8F-Cyo"/>
-                        <outlet property="speedLabel" destination="iFY-uD-4wi" id="7cu-hP-V9S"/>
-                        <outlet property="timeLabel" destination="4sV-Ao-6v0" id="51x-0B-FJu"/>
+                        <outlet property="framesCountLabel" destination="NV3-F9-EsT" id="0qe-Lp-VJq"/>
+                        <outlet property="navItem" destination="OKw-D0-Mya" id="XKp-ZD-WhF"/>
+                        <outlet property="progressHeight" destination="0Qk-Bw-vA8" id="tWP-9G-PsN"/>
+                        <outlet property="progressView" destination="XTa-Ob-9H3" id="URj-I7-fbp"/>
+                        <outlet property="speedLabel" destination="iFY-uD-4wi" id="zGq-7U-Z96"/>
+                        <outlet property="timeLabel" destination="4sV-Ao-6v0" id="U9u-xs-mer"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qoc-c3-Oxp" sceneMemberID="firstResponder"/>
