@@ -1,18 +1,18 @@
 //
-//  RallyPointController.swift
+//  ManageGroupViewController.swift
 //  Rally
 //
-//  Created by Adam Benwood on 2018-03-08.
+//  Created by Adam Benwood on 2018-03-25.
 //  Copyright © 2018 Adam Benwood. All rights reserved.
 //
 
 import UIKit
-import GoogleMaps
-class RallyPointController: UIViewController {
+
+class ManageGroupViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
 

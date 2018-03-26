@@ -42,6 +42,18 @@ class BaseViewController: UIViewController, SlideMenuDelegate {
             self.openViewControllerBasedOnIdentifier("Event")
             
             break
+        case 3:
+            print("Join Group\n", terminator: "")
+            
+            self.openViewControllerBasedOnIdentifier("JoinGroup")
+            
+            break
+        case 4:
+            print("Manage Group\n", terminator: "")
+            
+            self.openViewControllerBasedOnIdentifier("Manage")
+            
+            break
         case 5:
             print("Settings\n", terminator: "")
             
