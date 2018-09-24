@@ -1,5 +1,5 @@
 # Rally
-Rally is a offline navigation app utilizing Bluetooth mesh technology targeted at events like music festivals where it is difficult to find people and cell coverage is often limited or non-existent due to large amount of traffic or physical restrictions such as events being held in areas inherently lacking coverage e.g underground. 
+Rally is a offline navigation app utilizing Bluetooth mesh technology targeted at events like music festivals where it is difficult to find people and cell coverage is often limited or non-existent due to large amount of traffic or physical restrictions such as events being held in areas inherently lacking coverage e.g remote areas, underground.
 
 ## Functionality:
 At a high level Rally works by creating bluetooth connections to all devices nearby running the same application. The devices they connect to are also connecting to other nearby users, hence creating a “mesh”. 
